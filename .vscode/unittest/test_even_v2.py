@@ -2,7 +2,7 @@ import unittest
 from even import is_even
 
 class TestIsEven(unittest.TestCase):
-    
+    """Creating SubTests"""
     def test_even_numbers(self):
         """Test for 'even numbers'"""
         for number in [2, 4, 6, -8, -10, -12]:

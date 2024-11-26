@@ -2,6 +2,7 @@ import unittest
 
 
 class TestCollections(unittest.TestCase):
+    """Comparing Collections"""
     def test_sequence_objects(self):
         a = ("H","e","l","l","o")
         b = "Hello"

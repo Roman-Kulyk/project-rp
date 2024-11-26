@@ -3,6 +3,7 @@ from  prime_v1 import is_prime
 
 
 class TestIsPrime(unittest.TestCase):
+    """Comparing Values"""
     def test_prime_number(self):
         """Test for 'prime number'"""
         self.assertTrue(is_prime(17))
