@@ -13,3 +13,7 @@ class TestIsPrime(unittest.TestCase):
         for number in [4, 6, 8, 9, 12, 14, 15, 16, 18]:
             with self.subTest(number=number):
                 self.assertFalse(is_prime(number))
+            
+if __name__=="__main__":  # it makes module executable
+    unittest.main(verbosity=2)  # ()main function from unittest allows to load and run 
+    # a set of tests

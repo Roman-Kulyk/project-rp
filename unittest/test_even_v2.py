@@ -15,5 +15,6 @@ class TestIsEven(unittest.TestCase):
             with self.subTest(number=number):
                 self.assertEqual(is_even(number), False)
 
-if __name__=="__main__":
-    unittest.main(verbosity=2)
+if __name__=="__main__":  # it makes module executable
+    unittest.main(verbosity=2)  # ()main function from unittest allows to load and run 
+    # a set of tests

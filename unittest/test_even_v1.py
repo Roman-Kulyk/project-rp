@@ -23,8 +23,9 @@ class TestIsEven(unittest.TestCase):
         """Test for 'zero'"""
         self.assertEqual(is_even(0), True)
 
-if __name__=="__main__":
-    unittest.main(verbosity=2)
+if __name__=="__main__":  # it makes module executable
+    unittest.main(verbosity=2)  # ()main function from unittest allows to load and run 
+    # a set of tests
                          
                          
                          

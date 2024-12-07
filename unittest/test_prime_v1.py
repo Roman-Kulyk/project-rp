@@ -12,5 +12,6 @@ class TestIsPrime(unittest.TestCase):
         """Test for 'not prime number'"""
         self.assertFalse(is_prime(10))
 
-if __name__=="__main__":
-    unittest.main(verbosity=2)
+if __name__=="__main__":  # it makes module executable
+    unittest.main(verbosity=2)  # ()main function from unittest allows to load and run 
+    # a set of tests
